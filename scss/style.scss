@@ -1,8 +1,10 @@
-@import "_breakpoints.scss";
+@import "_variables.scss";
 @import "_header.scss";
+@import "_categories.scss";
+@import "_listing.scss";
+@import "_footer.scss";
 
-
-
+  
 /* -- imports google fonts -- */
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');

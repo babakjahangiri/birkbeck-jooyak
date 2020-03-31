@@ -1,0 +1,54 @@
+@import "_variables.scss";
+
+.cats-container{
+    width: 70%;
+}
+.category_items{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ align-content: center;
+ flex-wrap: wrap;
+ text-align: center;
+}
+
+
+.category_item{
+    flex: 1 0 21%; /* explanation below */
+    align-self:flex-start;
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin: 30px 0 30px 0px;
+    padding: 0;
+
+        h1{
+            font-size: 1.34em;
+            font-weight: 500;
+            margin: 0;
+            color:$primary-title-color;
+        }
+
+        h3{
+            font-size: 0.74em;
+            font-weight: 100;
+            margin: 2px;
+            color: $secondry-title-color;
+            text-align: center;
+             margin: 0 40px 0 40px;  //change this in responsive
+        }
+
+        img{
+            height: 65px;
+            width: auto;
+            margin: 10px;
+
+        }
+
+        &:hover h1{
+            // color: $primary-link-color;
+             color: $category-title-hover;
+          }
+
+}
+
+ 

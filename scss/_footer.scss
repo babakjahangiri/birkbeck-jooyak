@@ -1,0 +1,31 @@
+@import "_variables.scss";
+
+
+
+
+footer{
+    background-color: $footer-bg-color;
+   // height: 400px;
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+    
+}
+
+.footer-category-title{
+    font-size: 1.23em;
+    color:$footer-title-color;
+}
+
+.footer_category_item{
+    font-size: 1.25em;
+    list-style: none;
+
+    a{
+        text-decoration: none;
+        color: $footer-link-color;
+    }
+}
+ 
+.copyright{
+    font-size: .75rem;
+    p { margin: 0 auto;}
+    }

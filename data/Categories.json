@@ -1,0 +1,76 @@
+{
+  "Category": [
+    {
+      "id": "1",
+      "name": "Appliance",
+      "description" : "Home appliance, kitchen appliance, ...",
+      "icon": "appliances.svg"
+    },
+    {
+      "id": "2",
+      "name": "Books & Audible",
+      "description" : "Books, kindle books, audio books, ...",
+      "icon": "audio-book.svg"
+    },
+    {
+      "id": "3",
+      "name": "Computers & Electronics",
+      "description" : "Hardwares, softwares, cameras, laptops, monitors, ... ",
+      "icon": "pc.svg"
+    },
+    {
+      "id": "4",
+      "name": "Fashion & Clothing",
+      "description" : "Cloths, shoes, Bags, Luggages, ...",
+      "icon": "fashion.svg"
+    },
+    {
+      "id": "5",
+      "name": "Flowers and gifts",
+      "description" : "Flowers, plants, greetings card, ...",
+      "icon": "flower.svg"
+    },
+    {
+      "id": "6",
+      "name": "Food & Grocery",
+      "description" : "Fresh food, frozen food, vegan, drinks, ...",
+      "icon": "grocery.svg"
+    },
+    {
+      "id": "7",
+      "name": "Health and Beauty",
+      "description" : "Perfumes, Cosmetic, Skin care, Hair care, Personal Care ",
+      "icon": "beauty.svg"
+    },
+    {
+      "id": "8",
+      "name": "Home & Furniture",
+      "description" : "Kitchen, storage, lighting, textiles, décor, ...",
+      "icon": "room.svg"
+    },
+    {
+      "id": "9",
+      "name": "Jewellery & Watches",
+      "description" : "Watches, diamonds, wedding jewellery, ...",
+      "icon": "jewellery.svg"
+    },
+    {
+      "id": "10",
+      "name": "Kids & Baby",
+      "description" : "Accessories, clothing, sleepwear, swaddle, ..",
+      "icon": "baby.svg"
+    },
+    {
+      "id": "11",
+      "name": "Pets & Gardens",
+      "description" : "Pet Food, accessories, supplies, plants & vegetables, ...",
+      "icon": "dog.svg"
+    },
+    {
+      "id": "12",
+      "name": "Sports & Leisure",
+      "description" : "Equipment, caravan, barbecues, games, navigation, camping, ...",
+      "icon": "bicycle.svg"
+    }
+  ]
+}
