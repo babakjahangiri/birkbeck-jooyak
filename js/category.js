@@ -10,21 +10,22 @@ const imgFolder = "images/icons/cats/"
 
  function showList(cat_item)
  {
-     let cat_list ="";
+     let cat_list1 ="";
 
      Object.entries(cat_item).forEach(([index,e]) => {
-         cat_list += `<a href="category.html?id=${e.id}" class="category_item"><img src="${imgFolder}${e.icon}" title="${e.name}" alt="${e.name}"><h1>${e.name}</h1><h3>${e.description}</h3><a>`
+         cat_list1 += `<a href="category.html?id=${e.id}" class="category_item"><img src="${imgFolder}${e.icon}" title="${e.name}" alt="${e.name}"><h1>${e.name}</h1><h3>${e.description}</h3></a>`
      });
-     document.getElementById("lst_category").innerHTML =cat_list;
+     console.log(cat_list1);
+     document.getElementById("lst_category").innerHTML =cat_list1;
  }
 
  function showFooterlinks(cat_item)
  {
-    let cat_list =""; 
+    let cat_list2 =""; 
     Object.entries(cat_item).forEach(([index,e]) => {
-        cat_list += `<li class="footer_item"><a href="category.html?id=${e.id}">${e.name}<a></li>`
+        cat_list2 += `<li class="footer_item"><a href="category.html?id=${e.id}">${e.name}</a></li>`
     });
-    document.getElementById("lst_footer_category").innerHTML =cat_list;
+    document.getElementById("lst_footer_category").innerHTML =cat_list2;
  }
 
 
