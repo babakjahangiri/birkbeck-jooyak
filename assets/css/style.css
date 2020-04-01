@@ -31,14 +31,18 @@
   margin: 0 20px;
 }
 
-.nav-item span {
-  font-size: .85em;
-  color: #6D6D6D;
-  margin-left: 5px;
+.nav-item:hover {
+  color: #333333;
 }
 
 .nav-item:hover span {
   color: #333333;
+}
+
+.nav-item span {
+  font-size: .85em;
+  color: #6D6D6D;
+  margin-left: 5px;
 }
 
 .placeholder-searchbox {
