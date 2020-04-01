@@ -77,7 +77,7 @@
 }
 
 .cats-container {
-  width: 70%;
+  width: 100%;
 }
 
 .category_items {
@@ -100,42 +100,157 @@
 
 .category_item {
   -webkit-box-flex: 1;
-      -ms-flex: 1 0 21%;
-          flex: 1 0 21%;
-  /* explanation below */
+      -ms-flex: 1 0 40%;
+          flex: 1 0 40%;
   -ms-flex-item-align: start;
       align-self: flex-start;
   text-decoration: none;
-  margin: 30px 0 30px 0px;
-  padding: 0;
+  margin: 20px 0 20px 0px;
+  padding: 10px;
 }
 
 .category_item h1 {
-  font-size: 1.34em;
-  font-weight: 500;
+  font-size: 1.125em;
+  font-weight: 400;
   margin: 0;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   color: #4885ED;
 }
 
 .category_item h3 {
-  font-size: 0.83em;
-  font-weight: 500;
+  font-size: 0.75em;
+  font-weight: 200;
+  line-height: 1.125em;
+  margin: 5px 40px 0 40px;
   color: #999999;
   text-align: center;
-  line-height: 1.38em;
   font-family: 'Open Sans', sans-serif;
-  margin: 5px 40px 0 40px;
 }
 
 .category_item img {
-  height: 65px;
+  height: 50px;
   width: auto;
-  margin: 10px;
+  margin: 5px;
 }
 
 .category_item:hover h1 {
   color: #ff8bbb;
+}
+
+@media (min-width: 576px) {
+  .category_item h1 {
+    font-size: 1.25em;
+    font-weight: 400;
+  }
+  .category_item img {
+    height: 60px;
+    margin: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .category_item h1 {
+    font-size: 1.25em;
+    font-weight: 400;
+  }
+  .category_item img {
+    height: 60px;
+    margin: 10px;
+  }
+}
+
+@media (min-width: 992px) {
+  .cats-container {
+    width: 100%;
+  }
+  .category_item {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 21%;
+            flex: 1 0 21%;
+    margin: 20px 0 20px 0px;
+    padding: 0;
+  }
+  .category_item h1 {
+    font-size: 1.25em;
+    font-weight: 500;
+    margin: 0;
+  }
+  .category_item h3 {
+    font-size: 0.75em;
+    font-weight: 500;
+    line-height: 1.38em;
+    margin: 5px 40px 0 40px;
+  }
+  .category_item img {
+    height: 60px;
+    margin: 10px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .cats-container {
+    width: 100%;
+  }
+  .category_item {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 21%;
+            flex: 1 0 21%;
+    margin: 15px 0 15px 0px;
+    padding: 0;
+  }
+  .category_item h1 {
+    font-size: 1.34em;
+    font-weight: 500;
+    margin: 0;
+  }
+  .category_item h3 {
+    font-size: 0.83em;
+    font-weight: 400;
+    line-height: 1.38em;
+    margin: 5px 40px 0 40px;
+  }
+  .category_item img {
+    height: 60px;
+    margin: 10px;
+  }
+}
+
+@media (min-width: 1200px) and (min-width: 1360px) {
+  .cats-container {
+    width: 80%;
+  }
+  .category_item img {
+    height: 65px;
+    margin: 10px;
+  }
+}
+
+@media (min-width: 1200px) and (min-width: 1600px) {
+  .cats-container {
+    width: 70%;
+  }
+  .category_item {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 21%;
+            flex: 1 0 21%;
+    margin: 30px 0 30px 0px;
+    padding: 0;
+  }
+  .category_item h1 {
+    font-size: 1.34em;
+    font-weight: 500;
+    margin: 0;
+  }
+  .category_item h3 {
+    font-size: 0.83em;
+    font-weight: 500;
+    line-height: 1.38em;
+    margin: 5px 40px 0 40px;
+  }
+  .category_item img {
+    height: 65px;
+    margin: 10px;
+  }
 }
 
 .list-stores-title {
@@ -457,17 +572,19 @@ footer {
   margin-top: 60px;
   background-color: #F5F5F5;
   font-family: 'roboto', Arial, Helvetica, sans-serif;
+  border-top: solid 1px #dadada;
 }
 
 .footer-category-title {
-  font-size: 1.25em;
+  font-size: 1.375em;
   color: #CCCCCC;
+  margin-left: 40px;
 }
 
 .footer_item {
   font-size: 1.05em;
   list-style: none;
-  line-height: 2em;
+  line-height: 2.25em;
 }
 
 .footer_item a {
@@ -476,8 +593,10 @@ footer {
 }
 
 .copyright {
+  margin: 20px 0 10px 0;
   font-size: .75em;
   text-align: center;
+  color: #A4A4A4;
 }
 
 .footer_col_b {
@@ -494,6 +613,15 @@ footer {
   margin: 5px 0 5px 5px;
   font-size: 1.45em;
   color: #A4A4A4;
+}
+
+@media (min-width: 576px) {
+  .footer-category-title {
+    font-size: 1.125em;
+  }
+  .footer_item {
+    font-size: 0.75em;
+  }
 }
 
 /* -- imports google fonts -- */
