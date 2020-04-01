@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700&display=swap");
 header {
-  padding: 20px 0 20px 0;
+  padding: 10px 0 10px 0;
 }
 
 .header-container {
@@ -288,11 +288,31 @@ header {
   color: #ff8bbb;
 }
 
+.category-title-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
 .category-title {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 1.125em;
+  color: #999999;
+  margin: 10px 0 20px;
+}
+
+.category-title span {
+  color: #4885ED;
+  font-weight: 500;
 }
 
 @media (min-width: 576px) {
+  .category-title-container {
+    width: 93%;
+  }
+  .category-title {
+    font-size: 1.25em;
+    margin: 10px 0 20px;
+  }
   .category_item h1 {
     font-size: 1.25em;
     font-weight: 400;
@@ -304,6 +324,13 @@ header {
 }
 
 @media (min-width: 768px) {
+  .category-title-container {
+    width: 95%;
+  }
+  .category-title {
+    font-size: 1.25em;
+    margin: 10px 0 30px 0;
+  }
   .category_item h1 {
     font-size: 1.25em;
     font-weight: 400;
@@ -315,6 +342,13 @@ header {
 }
 
 @media (min-width: 992px) {
+  .category-title-container {
+    width: 90%;
+  }
+  .category-title {
+    font-size: 1.25em;
+    margin: 30px 0 20px 0;
+  }
   .cats-container {
     width: 100%;
   }
@@ -343,6 +377,13 @@ header {
 }
 
 @media (min-width: 1200px) {
+  .category-title-container {
+    width: 90%;
+  }
+  .category-title {
+    font-size: 1.25em;
+    margin: 40px 0 30px 0;
+  }
   .cats-container {
     width: 100%;
   }
@@ -371,6 +412,9 @@ header {
 }
 
 @media (min-width: 1200px) and (min-width: 1360px) {
+  .category-title-container {
+    width: 85%;
+  }
   .cats-container {
     width: 80%;
   }
@@ -539,7 +583,7 @@ header {
   font-size: 1.125em;
   line-height: 1.74em;
   font-weight: 200;
-  font-family: 'roboto', Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
   color: #999999;
   margin: 0 10px 40px 0;
 }
@@ -547,7 +591,7 @@ header {
 .section-cta-content div button {
   background-color: #FBD7E6;
   padding: 15px 50px 15px 50px;
-  font-family: 'roboto', Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-size: 1.25em;
   color: #6D6D6D;
   border-radius: 20px;

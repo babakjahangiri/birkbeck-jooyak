@@ -14,6 +14,7 @@
 }
 
 
+
 .category_item{
     flex: 1 0 40%;  
     align-self:flex-start;
@@ -51,14 +52,35 @@
           }
 }
 
+.category-title-container{
+    width:90%;
+    margin: 0 auto;
+}
+
 .category-title{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 1.125em;
+    color:$secondry-title-color;
+    margin: 10px 0 20px;
+ 
+    span{
+        color:$primary-title-color;
+        font-weight: 500;
+    }
 }
 
 @media (min-width: 576px) {
 
-    .category_item{
+    .category-title-container{
+        width: 93%;
+    }
 
+.category-title{
+    font-size: 1.25em;
+    margin: 10px 0 20px;
+}
+
+    .category_item{
         h1{
             font-size: 1.25em;
             font-weight: 400;
@@ -72,6 +94,15 @@
 }
 
 @media (min-width: 768px) {
+
+    .category-title-container{
+        width:95%;  
+    }
+    .category-title{
+        font-size: 1.25em;
+        margin: 10px 0 30px 0;
+    }
+    
     .category_item{
         h1{
             font-size: 1.25em;
@@ -86,6 +117,16 @@
 }
 
 @media (min-width: 992px) {
+
+    .category-title-container{
+        width:90%;  
+    }
+
+    .category-title{
+        font-size: 1.25em;
+        margin: 30px 0 20px 0;
+    }
+
 
     .cats-container{
         width: 100%;
@@ -119,6 +160,17 @@
 }
 
 @media (min-width: 1200px) {
+
+    .category-title-container{
+        width:90%;  
+    }
+
+    .category-title{
+        font-size: 1.25em;
+        margin: 40px 0 30px 0;
+    }
+
+
     .cats-container{
         width: 100%;
     }
@@ -149,6 +201,11 @@
 
 
     @media (min-width: 1360px) {
+
+        .category-title-container{
+            width:85%;  
+        }
+
         .cats-container{
             width: 80%;
         }
