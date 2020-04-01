@@ -288,6 +288,10 @@
   border: solid 1px #CECECE;
 }
 
+.cta-ribbon-topspace {
+  margin-top: 20px;
+}
+
 @media (min-width: 576px) {
   .list-stores div img {
     height: 240px;
@@ -304,11 +308,23 @@
   .list-stores div img {
     height: 200px;
   }
+  .cta-ribbon-topspace {
+    margin-top: 30px;
+  }
 }
 
 @media (min-width: 1200px) {
   .list-stores div img {
     height: 250px;
+  }
+  .cta-ribbon-topspace {
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .cta-ribbon-topspace {
+    margin-top: 80px;
   }
 }
 
