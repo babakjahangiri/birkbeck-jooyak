@@ -37,6 +37,10 @@
   margin-left: 5px;
 }
 
+.nav-item:hover span {
+  color: #333333;
+}
+
 .placeholder-searchbox {
   position: relative;
   margin: 20px;

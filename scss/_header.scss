@@ -24,6 +24,10 @@
         color: $header-font-color;
         margin-left: 5px;
     }
+
+    &:hover span{
+        color: $header-hover-color;
+    }
 }
 
 .placeholder-searchbox {
