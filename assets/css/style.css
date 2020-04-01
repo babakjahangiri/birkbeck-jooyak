@@ -14,9 +14,9 @@
           flex-direction: row;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -26,9 +26,9 @@
 .nav-item {
   text-decoration: none;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
-  font-size: 1.5em;
   color: #6D6D6D;
-  margin: 0 20px;
+  font-size: 1.125em;
+  margin: 0 15px;
 }
 
 .nav-item:hover {
@@ -40,19 +40,19 @@
 }
 
 .nav-item span {
-  font-size: .85em;
+  font-size: .75em;
   color: #6D6D6D;
   margin-left: 5px;
 }
 
 .placeholder-searchbox {
   position: relative;
-  margin: 20px;
+  margin: 15px 5px;
 }
 
 .search-textbox {
   position: relative;
-  padding: 12px 40px 12px 8px;
+  padding: 10px 40px 10px 8px;
   border: solid 1px #BBBBBB;
   border-radius: 10px;
   font-size: 1.25em;
@@ -69,9 +69,9 @@
   margin: 0;
   border: 0;
   width: auto;
-  height: 50px;
-  float: right;
-  margin: 20px 0;
+  height: 25px;
+  float: left;
+  margin: 20px 10px 20px 10px;
 }
 
 .xs-searchbox {
@@ -110,6 +110,17 @@
   .lg-searchbox {
     display: none;
   }
+  .nav-item {
+    font-size: 1.25em;
+    margin: 25px 10px 15px 35px;
+  }
+  .nav-item span {
+    font-size: .85em;
+  }
+  .logo {
+    height: 35px;
+    margin: 25px 0 15px 10px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -119,6 +130,34 @@
   .lg-searchbox {
     display: block;
   }
+  .nav-container {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .nav-item {
+    font-size: 1.25em;
+    margin: 0 15px;
+  }
+  .nav-item span {
+    font-size: .85em;
+  }
+  .placeholder-searchbox {
+    margin: 20px 5px;
+  }
+  .search-textbox {
+    padding: 8px 40px 8px 8px;
+    font-size: 1.125em;
+  }
+  .logo {
+    height: 30px;
+    margin: 26px 0;
+    float: right;
+  }
+  .srch-icon {
+    top: 8px;
+    padding: 4px 12px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -127,6 +166,60 @@
   }
   .lg-searchbox {
     display: block;
+  }
+  .nav-item {
+    font-size: 1.5em;
+    margin: 0 20px;
+  }
+  .nav-item span {
+    font-size: .85em;
+  }
+  .placeholder-searchbox {
+    margin: 20px;
+  }
+  .search-textbox {
+    padding: 12px 40px 12px 8px;
+    font-size: 1.25em;
+  }
+  .logo {
+    height: 40px;
+    margin: 22px 0;
+  }
+  .srch-icon {
+    top: 10px;
+    padding: 6px 14px;
+    font-size: large;
+  }
+}
+
+@media (min-width: 1600px) {
+  .xs-searchbox {
+    display: none;
+  }
+  .lg-searchbox {
+    display: block;
+  }
+  .nav-item {
+    font-size: 1.5em;
+    margin: 0 20px;
+  }
+  .nav-item span {
+    font-size: .85em;
+  }
+  .placeholder-searchbox {
+    margin: 20px;
+  }
+  .search-textbox {
+    padding: 12px 40px 12px 8px;
+    font-size: 1.5em;
+  }
+  .logo {
+    height: 50px;
+    margin: 20px 0;
+  }
+  .srch-icon {
+    top: 12px;
+    padding: 6px 16px;
   }
 }
 
