@@ -1,8 +1,9 @@
 /* GRID */
-
+ 
 html {
-    box-sizing: border-box;
-    -ms-overflow-style: scrollbar;
+  box-sizing: border-box;
+  -ms-overflow-style: scrollbar;
+  
   }
   
   *,
@@ -11,22 +12,23 @@ html {
     box-sizing: inherit;
   }
 
-  
+   
+
   /* Containers */
   
-  .container {
+  .container{
     /* default from breakpoint 0, until another breakpoint overrides it */
-    max-width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+     max-width: 100%;
+     padding-right: 15px;
+     padding-left: 15px;
+     margin-right: auto;
+     margin-left: auto;
   }
 
   
 .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
     width: 100%;
-    padding-right: 15px;
+     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
