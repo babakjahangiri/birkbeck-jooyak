@@ -1,0 +1,319 @@
+
+.cta-ribbon {
+    display: block;
+    height: 2px;
+    background: linear-gradient(90deg, #1CCDAA 0%, #1CCDAA 7.5%, #54D98C 12.5%, #EB9950 25%, #ED7669 32.5%, #B07CC6 37.5%, #A563C1 37.5%, #6B9EE0 46%, #8ED3EB 62%, #009484 70.5%, #21acb8 85%, #21acb8 90%, #8fa0ae 95.5%, #8fa0ae 100%);
+    }
+ 
+    .store-online-responsive{
+      margin: 0 auto;
+       img {
+        width: auto;
+        height: 300px;
+        margin: 70px 10px 70px 10px;
+      }
+    }
+
+    .section-bg-cta{
+          background-image: url("/images/cta-bg.jpg");
+          background-attachment: fixed;
+          background-position: center center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          min-height: 300px;
+         clip-path: polygon(0% 0%, 100% 0, 100% 85%, 50% 100%, 0 85%);
+        
+    }
+
+
+    .section-cta-content{
+      div{
+        margin-left: 0;
+        text-align: center;
+      }
+     div h3{
+        font-size: 1.75em;
+        font-weight: 400;
+        font-family: 'roboto', Arial, Helvetica, sans-serif;
+        margin: 50px 0;
+        color: $cta-title-color;
+      }
+
+     div p{
+        width: 100%;
+        font-size: 1.125em;
+        line-height: 1.74em;
+        font-weight: 200;
+        font-family: 'roboto', Arial, Helvetica, sans-serif;
+        color: $cta-font-color;
+        margin: 0 10px 40px 0;
+      }
+
+      div button{
+        background-color: $cta-btn-color;
+        padding: 15px 50px 15px 50px;
+        font-family: 'roboto', Arial, Helvetica, sans-serif;
+        font-size: 1.25em;
+        color: $primary-font-color;
+        border-radius: 20px;
+        border: 0;
+        margin-bottom: 40px;
+      }
+
+    }
+
+
+
+    @media (min-width: 576px) {
+
+      .section-bg-cta {
+        min-height: 300px;
+        clip-path: polygon(0% 0%, 100% 0, 100% 75%, 50% 100%, 0 75%);
+      }
+
+      .store-online-responsive{
+
+        text-align: center;
+
+        img {
+         width: auto;
+         height: 300px;
+         margin: 60px 10px 60px 10px;
+       }
+     }
+
+     .section-cta-content{
+      div{
+        margin-left: 10px;
+      }
+     div h3{
+        font-size: 1.81em;
+        font-weight: 400;
+        margin: 50px 0;
+      }
+
+     div p{
+        width: 100%;
+        font-size: 1.125em;
+        line-height: 1.74em;
+        font-weight: 200;
+        margin: 0 0px 40px 0PX;
+      }
+
+      div button{
+        padding: 15px 50px 15px 50px;
+        font-size: 1.25em;
+        border-radius: 20px;
+      }
+
+     }
+    }
+
+    @media (min-width: 768px) {
+
+      .section-bg-cta {
+        min-height: 400px;
+        clip-path: polygon(0% 0%, 100% 0, 100% 75%, 50% 100%, 0 75%);
+      }
+
+      .store-online-responsive{
+        img {
+         width: auto;
+         height: 400px;
+         margin: 70px 10px 70px 60px;
+       }
+     }
+    
+
+    .section-cta-content{
+      div{
+        margin: 0 auto;
+      }
+
+     div h3{
+        font-size: 2.25em;
+        font-weight: 400;
+        margin: 60px auto;
+      }
+
+     div p{
+         width: 100%;
+        font-size: 1.375em;
+        line-height: 1.5em;
+        font-weight: 200;
+        margin: 0 5px 60px 5PX;
+      }
+
+      div button{
+        padding: 20px 80px 20px 80px;
+        font-size: 1.5em;
+        border-radius: 20px;
+      }
+
+    }
+
+  }
+
+    @media (min-width: 992px) {
+
+      .section-bg-cta {
+        min-height: 450px;
+        clip-path: polygon(0% 0%, 100% 0, 100% 75%, 50% 100%, 0 75%);
+      }
+
+      .store-online-responsive{
+        img {
+         width: auto;
+         height: 250px;
+         margin: 70px 10px 70px 60px;
+       }
+     }
+
+     .section-cta-content{
+      div{
+        margin-left: 5px;
+        text-align: left;
+      }
+     div h3{
+        font-size: 1.875em;
+        font-weight: 300;
+        margin: 40px 0;
+
+      }
+
+     div p{
+        width: 100%;
+        font-size: 1.125em;
+        line-height: 1.74em;
+        font-weight: 200;
+        margin: 0 10px 40px 0;
+      }
+
+      div button{
+        padding: 15px 50px 15px 50px;
+        font-size: 1.25em;
+        border-radius: 20px;
+      }
+
+     }
+
+    }
+
+      @media (min-width: 1200px) {
+        .section-bg-cta {
+          min-height: 500px;
+          clip-path: polygon(0% 0%, 100% 0, 100% 75%, 50% 100%, 0 75%);
+        }
+
+        .store-online-responsive{
+           img {
+            width: auto;
+            height: 300px;
+            margin: 70px 10px 70px 60px;
+          }
+        }
+
+        .section-cta-content{
+          div{
+            margin-left: 30px;
+             
+          }
+         div h3{
+            font-size: 2.5em;
+            font-weight: 300;
+            margin: 50px 0;
+             
+          }
+    
+         div p{
+            width: 90%;
+            font-size: 1.25em;
+            line-height: 1.5em;
+            font-weight: 200;
+            margin: 0 10px 40px 0;
+          }
+    
+          div button{
+            background-color: $cta-btn-color;
+            padding: 15px 50px 15px 50px;
+            font-size: 1.25em;
+            border-radius: 20px;
+    
+          }
+    
+         }
+      }
+
+
+      @media (min-width: 1360px) {
+
+        .store-online-responsive{
+          img {
+           width: auto;
+           height: 400px;
+           margin: 70px 10px 70px 60px;
+         }
+       }
+        .section-cta-content{
+        div{
+          margin-left: 90px;
+        }
+
+       div h3{
+          font-size:  2.625em;
+          font-weight: 300;
+          margin: 50px 0;
+        }
+  
+       div p{
+          width: 80%;
+          font-size: 1.125em;
+          line-height: 1.5em;
+          font-weight: 200;
+          margin: 0 10px 60px 0;
+        }
+  
+        div button{
+          background-color: $cta-btn-color;
+          padding: 20px 70px 20px 70px;
+          font-size: 1.25em;
+          border-radius: 20px;
+  
+        }
+      }
+    }
+      
+    @media (min-width: 1600px) {
+      .section-cta-content{
+        div h3{
+          font-size: 3em;
+          font-weight: 400;
+        }
+
+        div p{
+          width: 80%;
+          font-size: 1.5em;
+          line-height: 1.25em;
+          font-weight: 200;
+          margin: 0 10px 60px 0;
+          
+        }
+      }
+    }
+
+
+      @media only screen and (max-width: 1200px) {
+        .section-bg-cta {
+          background-attachment: scroll;
+        }
+      }
+
+
+    @media only screen and (max-device-width: 1200px) {
+        .section-bg-cta {
+          background-attachment: scroll;
+          clip-path: polygon(0% 0%, 100% 0, 100% 85%, 50% 100%, 0 85%);
+        }
+     }
+    
+    

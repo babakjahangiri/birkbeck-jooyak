@@ -1,0 +1,79 @@
+
+.list-stores-title{
+    font-size:1.875em;
+    font-weight: 600;
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: $primary-font-color;
+    margin: 40px 0 30px 0;
+}
+
+.list-stores{
+text-align: center;
+
+ div {
+     padding: 10px;
+ a{
+    color: $primary-font-color;
+    text-decoration: none;
+    
+   h2{
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+    font-size:1.5em;
+    font-weight: 300;
+    margin: 0 0 40px;
+    }
+  }
+
+ img{
+    height: 200px;
+    width: auto;
+    border: solid 1px $images-border-color;
+    }
+ }
+ 
+ 
+}
+
+
+
+
+@media (min-width: 576px) {
+  .list-stores{
+    div{
+        img{
+            height: 240px;
+        }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+    .list-stores{
+        div{
+            img{
+                height: 280px;
+            }
+        }
+      }
+}
+
+@media (min-width: 992px) {
+    .list-stores{
+        div{
+            img{
+                height: 200px;
+            }
+        }
+      }
+}
+
+@media (min-width: 1200px) {
+    .list-stores{
+        div{
+            img{
+                height: 250px;
+            }
+        }
+      }
+}
