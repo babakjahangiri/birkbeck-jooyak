@@ -10,6 +10,8 @@
 
 .list-stores{
 text-align: center;
+ margin: 0 auto;
+  
 
  div {
      padding: 10px;
@@ -42,9 +44,11 @@ text-align: center;
 
 @media (min-width: 576px) {
   .list-stores{
+      width: 100%;
+      
     div{
         img{
-            height: 240px;
+            height: 230px;
         }
     }
   }
@@ -54,7 +58,7 @@ text-align: center;
     .list-stores{
         div{
             img{
-                height: 280px;
+                height: 250px;
             }
         }
       }
@@ -76,9 +80,11 @@ text-align: center;
 
 @media (min-width: 1200px) {
     .list-stores{
+        width: 100%;
+
         div{
             img{
-                height: 250px;
+                height: 220px;
             }
         }
       }
@@ -91,5 +97,9 @@ text-align: center;
 @media (min-width: 1600px) {
     .cta-ribbon-topspace{
         margin-top: 80px;
+    }
+
+    .list-stores{
+        width: 85%;
     }
 }

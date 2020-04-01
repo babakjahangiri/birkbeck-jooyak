@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700&display=swap");
+header {
+  padding: 20px 0 20px 0;
+}
+
 .header-container {
   text-align: center;
 }
@@ -284,6 +288,10 @@
   color: #ff8bbb;
 }
 
+.category-title {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 @media (min-width: 576px) {
   .category_item h1 {
     font-size: 1.25em;
@@ -411,6 +419,7 @@
 
 .list-stores {
   text-align: center;
+  margin: 0 auto;
 }
 
 .list-stores div {
@@ -440,14 +449,17 @@
 }
 
 @media (min-width: 576px) {
+  .list-stores {
+    width: 100%;
+  }
   .list-stores div img {
-    height: 240px;
+    height: 230px;
   }
 }
 
 @media (min-width: 768px) {
   .list-stores div img {
-    height: 280px;
+    height: 250px;
   }
 }
 
@@ -461,8 +473,11 @@
 }
 
 @media (min-width: 1200px) {
+  .list-stores {
+    width: 100%;
+  }
   .list-stores div img {
-    height: 250px;
+    height: 220px;
   }
   .cta-ribbon-topspace {
     margin-top: 50px;
@@ -472,6 +487,9 @@
 @media (min-width: 1600px) {
   .cta-ribbon-topspace {
     margin-top: 80px;
+  }
+  .list-stores {
+    width: 85%;
   }
 }
 
