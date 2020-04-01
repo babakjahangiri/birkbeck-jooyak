@@ -13,42 +13,55 @@
   </head>
   <body>
     <header class="container-fluid">
-      <div class="row">
-         <div class="xs-col-6 lg-col-4">
-           <img src="images/logo.png" class="logo">
-         </div>
-
-         <div class="md-col-4 lg-col-4 xl-col-4 lg-searchbox">
-           <div class="search-bar">
-            <input type="text" class="txt-search" placeholder="Search.."><i id="srch-icon" class="fas fa-search"></i></div>
-           </div>
-         <div class="xs-col-6 lg-col-4"><i class="fas fa-store"></i> <i class="fas fa-sign-in-alt"></i></div>
-      </div>
-      <div class="row">
-        <div class="xs-col-12 xs-searchbox"><input type="text" class="txt-search" placeholder="Search.."></div>
+      <div class="row header-container">
+        <!-- LOGO -->
+        <div class="xs-col-3 lg-col-3 md-col-6 sm-col-6 xs-col-6 ">
+            <img src="images/logo.png" class="logo" title="Jooyak" alt="Jooyak logo">
+        </div>
+         <!-- Search -->
+         <div class="xs-col-5 lg-col-5 lg-searchbox">
+          <div class="placeholder-searchbox">
+          <input type="text" class="search-textbox" placeholder="Search..">
+          <span class="srch-icon"><i class="fas fa-search"></i></span>
+          </div>
+        </div>
+        <!-- NAV Items-->
+        <div class="xs-col-4 lg-col-4 md-col-6 sm-col-6 xs-col-6 ">
+          <nav class="nav-container">
+            <a href="#" class="nav-item"><i class="fas fa-store"></i><span>Add your e-Shop</span></a>
+            <a href="signin.html" class="nav-item"><i class="fas fa-sign-in-alt"></i><span>Sign in</span></a>
+          </nav>
+        </div>
       </div> 
+      <div class="row">
+        <div class="xs-col-12 xs-searchbox">
+          <div class="placeholder-searchbox">
+          <input type="text" class="txt-search" placeholder="Search..">
+          </div>
+        </div>
+      </div>
     </header> 
   
     <section class="container cats-container">
           <div class="row">
-            <div id="lst_category" class="xl-col-12 lg-col-12 category_items">
+            <div id="lst_category" class="xl-col-12 lg-col-12 md-col-12 sm-col-12 xs-col-12 category_items">
             </div>
           </div>
     </section>
 
     <section class="container">
          <div class="row">
-           <div class="xl-col-12 lg-col-12 md-col-12 xs-col-12 list-stores-title"><p>Latest Online Stores</p></div>
+           <div class="xl-col-12 lg-col-12 md-col-12 sm-col-12 xs-col-12 list-stores-title"><p>Latest Online Stores</p></div>
          </div>
          <div class="row list-stores">
-          <div class="xl-col-3 lg-col-3 md-col-6 xs-col-6"><a href="store.htm" class="list-store"><img src="images/stores/angels.jpg" title="Angels" alt="Angels"><h2>Angels</h2></a></div>
-          <div class="xl-col-3 lg-col-3 md-col-6 xs-col-6"><a href="store.htm" class="list-store"><img src="images/stores/argoos.jpg" title="Argos" alt="Argos"><h2>Argos</h2></a></div>
-          <div class="xl-col-3 lg-col-3 md-col-6 xs-col-6"><a href="store.htm" class="list-store"><img src="images/stores/bnq.jpg" title="B&Q" alt="B&Q"><h2>B&Q</h2></a></div>
-          <div class="xl-col-3 lg-col-3 md-col-6 xs-col-6"><a href="store.htm" class="list-store"><img src="images/stores/boots.jpg" title="Boots" alt="Boots"><h2>Boots</h2></a></div>
-          <div class="xl-col-3 lg-col-3 md-col-6 xs-col-6"><a href="store.htm" class="list-store"><img src="images/stores/hnm.jpg" title="H&M" alt="H&M"><h2>H&M</h2></a></div>
-          <div class="xl-col-3 lg-col-3 md-col-6 xs-col-6"><a href="store.htm" class="list-store"><img src="images/stores/johnlewis.jpg" title="John Lewis" alt="John Lewis"><h2>John Lewis</h2></a></div>
-          <div class="xl-col-3 lg-col-3 md-col-6 xs-col-6"><a href="store.htm" class="list-store"><img src="images/stores/lm.jpg" title="Lastminute" alt="Lastminute"><h2>Lastminute</h2></a></div>
-          <div class="xl-col-3 lg-col-3 md-col-6 xs-col-6"><a href="store.htm" class="list-store"><img src="images/stores/topshop.jpg" title="TOPSHOP" alt="TOPSHOP"><h2>Topshop</h2></a></div>
+          <div class="xl-col-3 lg-col-3 md-col-6 sm-col-6 xs-col-6"><a href="store.htm" class="list-store"><img src="images/stores/angels.jpg" title="Angels" alt="Angels"><h2>Angels</h2></a></div>
+          <div class="xl-col-3 lg-col-3 md-col-6 sm-col-6 xs-col-6"><a href="store.htm" class="list-store"><img src="images/stores/argoos.jpg" title="Argos" alt="Argos"><h2>Argos</h2></a></div>
+          <div class="xl-col-3 lg-col-3 md-col-6 sm-col-6 xs-col-6"><a href="store.htm" class="list-store"><img src="images/stores/bnq.jpg" title="B&Q" alt="B&Q"><h2>B&Q</h2></a></div>
+          <div class="xl-col-3 lg-col-3 md-col-6 sm-col-6 xs-col-6"><a href="store.htm" class="list-store"><img src="images/stores/boots.jpg" title="Boots" alt="Boots"><h2>Boots</h2></a></div>
+          <div class="xl-col-3 lg-col-3 md-col-6 sm-col-6 xs-col-6"><a href="store.htm" class="list-store"><img src="images/stores/hnm.jpg" title="H&M" alt="H&M"><h2>H&M</h2></a></div>
+          <div class="xl-col-3 lg-col-3 md-col-6 sm-col-6 xs-col-6"><a href="store.htm" class="list-store"><img src="images/stores/johnlewis.jpg" title="John Lewis" alt="John Lewis"><h2>John Lewis</h2></a></div>
+          <div class="xl-col-3 lg-col-3 md-col-6 sm-col-6 xs-col-6"><a href="store.htm" class="list-store"><img src="images/stores/lm.jpg" title="Lastminute" alt="Lastminute"><h2>Lastminute</h2></a></div>
+          <div class="xl-col-3 lg-col-3 md-col-6 sm-col-6 xs-col-6"><a href="store.htm" class="list-store"><img src="images/stores/topshop.jpg" title="TOPSHOP" alt="TOPSHOP"><h2>Topshop</h2></a></div>
         </div>
     </section>
 
@@ -56,12 +69,12 @@
      <div class="cta-ribbon cta-ribbon-topspace"></div>  
     <section class="container-fluid section-bg-cta">
       <div class="row">
-        <div class="xl-col-12"></div>
+        <div class="xl-col-12 lg-col-12 md-col-12 sm-col-12 xs-col-12"></div>
       </div>
     </section>
     <section class="container-fluid">
       <div class="row">
-        <div class="xl-col-6 lg-col-6 md-col-12 xs-col-12 section-cta-content">
+        <div class="xl-col-6 lg-col-6 md-col-12 sm-col-12 xs-col-12 section-cta-content">
           <div>
           <h3>Suggest us your online shop</h3>
           <p>
@@ -79,12 +92,12 @@
  
     <footer class="container-fluid">
     <div class="row">
-      <div class="xl-col-4 lg-col-4 md-col-12 xs-col-12">
+      <div class="xl-col-4 lg-col-4 md-col-12 sm-col-12 xs-col-12">
         <p class="footer-category-title">Categories</p>
          <ul id="lst_footer_category">
          </ul>
       </div>
-      <div class="xl-col-4 lg-col-4 md-col-6 xs-col-12">
+      <div class="xl-col-4 lg-col-4 md-col-6 sm-col-6 xs-col-12">
         <ul class="footer_col_b">
           <li class="footer_item"><a href="#">Advertise on Jooyak</a></li>
           <li class="footer_item"><a href="#">FAQs</a></li>
@@ -93,7 +106,7 @@
         </ul>
       </div>
 
-       <div class="xl-col-4 lg-col-4 md-col-6 xs-col-12">
+       <div class="xl-col-4 lg-col-4 md-col-6 sm-col-6 xs-col-12">
         <ul class="footer_col_c">
           <li class="footer_item"><a href="#">Contact Us</a></li>
           <li class="footer_item"><a href="#">About Us</a></li>

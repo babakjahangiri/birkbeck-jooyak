@@ -1,10 +1,69 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700&display=swap");
+.header-container {
+  text-align: center;
+}
+
+.nav-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100%;
+}
+
+.nav-item {
+  text-decoration: none;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  color: #6D6D6D;
+  margin: 0 20px;
+}
+
+.nav-item span {
+  font-size: .85em;
+  color: #6D6D6D;
+  margin-left: 5px;
+}
+
+.placeholder-searchbox {
+  position: relative;
+  margin: 20px;
+}
+
+.search-textbox {
+  position: relative;
+  padding: 12px 40px 12px 8px;
+  border: solid 1px #BBBBBB;
+  border-radius: 10px;
+  font-size: 1.25em;
+  width: 100%;
+}
+
+.search-textbox:focus {
+  -webkit-box-shadow: 0 0 0 0.1rem rgba(0, 123, 255, 0.25);
+          box-shadow: 0 0 0 0.1rem rgba(0, 123, 255, 0.25);
+  outline: 0;
+}
+
 .logo {
   margin: 0;
   border: 0;
   width: auto;
-  height: 20px;
+  height: 50px;
+  float: right;
+  margin: 20px 0;
 }
 
 .xs-searchbox {
@@ -15,29 +74,16 @@
   display: none;
 }
 
-.txt-search {
-  position: relative;
-  padding: 8px 50px 8px 8px;
-  border: solid 1px #CECECE;
-  border-radius: 10px;
-  margin: 10px;
-  font-size: 17px;
-  width: 90%;
-}
-
 .search-bar {
   position: relative;
 }
 
-#srch-icon {
+.srch-icon {
   position: absolute;
-  display: block;
-  z-index: 2;
-  top: 20px;
+  right: 0;
+  top: 10px;
+  padding: 6px 12px;
   color: #BBBBBB;
-  width: 0;
-  float: right;
-  right: 50px;
 }
 
 @media (min-width: 576px) {
