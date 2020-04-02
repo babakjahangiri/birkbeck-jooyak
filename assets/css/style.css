@@ -229,6 +229,7 @@ header {
 
 .cats-container {
   width: 100%;
+  margin-top: 10px;
 }
 
 .category_items {
@@ -279,7 +280,7 @@ header {
 }
 
 .category_item img {
-  height: 50px;
+  height: 55px;
   width: auto;
   margin: 5px;
 }
@@ -318,7 +319,7 @@ header {
     font-weight: 400;
   }
   .category_item img {
-    height: 60px;
+    height: 55px;
     margin: 10px;
   }
 }
@@ -343,7 +344,7 @@ header {
 
 @media (min-width: 992px) {
   .category-title-container {
-    width: 90%;
+    width: 95%;
   }
   .category-title {
     font-size: 1.25em;
@@ -351,6 +352,7 @@ header {
   }
   .cats-container {
     width: 100%;
+    margin-top: 20px;
   }
   .category_item {
     -webkit-box-flex: 1;
@@ -371,14 +373,14 @@ header {
     margin: 5px 40px 0 40px;
   }
   .category_item img {
-    height: 55px;
+    height: 60px;
     margin: 10px;
   }
 }
 
 @media (min-width: 1200px) {
   .category-title-container {
-    width: 90%;
+    width: 95%;
   }
   .category-title {
     font-size: 1.25em;
@@ -413,7 +415,7 @@ header {
 
 @media (min-width: 1200px) and (min-width: 1360px) {
   .category-title-container {
-    width: 85%;
+    width: 95%;
   }
   .cats-container {
     width: 80%;
@@ -427,6 +429,7 @@ header {
 @media (min-width: 1200px) and (min-width: 1600px) {
   .cats-container {
     width: 70%;
+    margin-top: 30px;
   }
   .category_item {
     -webkit-box-flex: 1;
@@ -453,12 +456,12 @@ header {
 }
 
 .list-stores-title {
-  font-size: 1.875em;
-  font-weight: 600;
+  font-size: 1.5em;
+  font-weight: 400;
   font-family: 'roboto', Arial, Helvetica, sans-serif;
   text-align: center;
   color: #6D6D6D;
-  margin: 40px 0 30px 0;
+  margin: 50px 0 10px 0;
 }
 
 .list-stores {
@@ -477,9 +480,9 @@ header {
 
 .list-stores div a h2 {
   font-family: 'roboto', Arial, Helvetica, sans-serif;
-  font-size: 1.5em;
+  font-size: 1em;
   font-weight: 300;
-  margin: 0 0 40px;
+  margin: 10px 0 40px;
 }
 
 .list-stores div img {
@@ -502,12 +505,27 @@ header {
 }
 
 @media (min-width: 768px) {
+  .list-stores div a h2 {
+    font-size: 1.125em;
+    font-weight: 300;
+    margin: 10px 0 40px;
+  }
   .list-stores div img {
     height: 250px;
   }
 }
 
 @media (min-width: 992px) {
+  .list-stores-title {
+    font-size: 1.75em;
+    font-weight: 500;
+    margin: 40px 0 20px 0;
+  }
+  .list-stores div a h2 {
+    font-size: 1.25em;
+    font-weight: 300;
+    margin: 10px 0 40px;
+  }
   .list-stores div img {
     height: 200px;
   }
@@ -517,8 +535,18 @@ header {
 }
 
 @media (min-width: 1200px) {
+  .list-stores-title {
+    font-size: 1.875em;
+    font-weight: 600;
+    margin: 70px 0 25px 0;
+  }
   .list-stores {
     width: 100%;
+  }
+  .list-stores div a h2 {
+    font-size: 1.5em;
+    font-weight: 400;
+    margin: 10px 0 40px;
   }
   .list-stores div img {
     height: 220px;

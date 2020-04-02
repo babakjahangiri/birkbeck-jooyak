@@ -2,6 +2,7 @@
 
 .cats-container{
     width: 100%;
+    margin-top: 10px;
 }
 
 .category_items{
@@ -42,7 +43,7 @@
         }
 
         img{
-            height: 50px;
+            height: 55px;
             width: auto;
             margin: 5px;
         }
@@ -87,7 +88,7 @@
         }
 
         img{
-            height: 60px;
+            height: 55px;
             margin: 10px;
         }
     }
@@ -119,7 +120,8 @@
 @media (min-width: 992px) {
 
     .category-title-container{
-        width:90%;  
+      //  width:90%;  
+      width:95%;  
     }
 
     .category-title{
@@ -130,6 +132,7 @@
 
     .cats-container{
         width: 100%;
+        margin-top: 20px;
     }
 
     .category_item{
@@ -151,7 +154,7 @@
         }
 
         img{
-            height: 55px;
+            height: 60px;
             margin: 10px;
         }
     }
@@ -162,7 +165,8 @@
 @media (min-width: 1200px) {
 
     .category-title-container{
-        width:90%;  
+     //   width:90%; 
+     width:95%; 
     }
 
     .category-title{
@@ -203,7 +207,7 @@
     @media (min-width: 1360px) {
 
         .category-title-container{
-            width:85%;  
+          width:95%; 
         }
 
         .cats-container{
@@ -220,7 +224,8 @@
 
     @media (min-width: 1600px) {
         .cats-container{
-            width: 70%;
+             width: 70%;
+             margin-top: 30px;
         }
 
         .category_item{

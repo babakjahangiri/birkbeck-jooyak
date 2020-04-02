@@ -1,11 +1,11 @@
 
 .list-stores-title{
-    font-size:1.875em;
-    font-weight: 600;
+    font-size:1.5em;
+    font-weight: 400;
     font-family: 'roboto', Arial, Helvetica, sans-serif;
     text-align: center;
     color: $primary-font-color;
-    margin: 40px 0 30px 0;
+    margin: 50px 0 10px 0;
 }
 
 .list-stores{
@@ -21,9 +21,9 @@ text-align: center;
     
    h2{
     font-family: 'roboto', Arial, Helvetica, sans-serif;
-    font-size:1.5em;
+    font-size:1em;
     font-weight: 300;
-    margin: 0 0 40px;
+    margin: 10px 0 40px;
     }
   }
 
@@ -47,6 +47,8 @@ text-align: center;
       width: 100%;
       
     div{
+
+
         img{
             height: 230px;
         }
@@ -57,6 +59,14 @@ text-align: center;
 @media (min-width: 768px) {
     .list-stores{
         div{
+            a h2{
+                font-size:1.125em;
+                font-weight: 300;
+                margin: 10px 0 40px;
+                }
+
+          
+
             img{
                 height: 250px;
             }
@@ -65,8 +75,23 @@ text-align: center;
 }
 
 @media (min-width: 992px) {
+    
+    .list-stores-title{
+        font-size:1.75em;
+        font-weight: 500;
+        margin: 40px 0 20px 0;
+    }
+    
+    
     .list-stores{
         div{
+
+           a h2{
+                font-size:1.25em;
+                font-weight: 300;
+                margin: 10px 0 40px;
+                }
+
             img{
                 height: 200px;
             }
@@ -79,10 +104,24 @@ text-align: center;
 }
 
 @media (min-width: 1200px) {
+
+    .list-stores-title{
+        font-size:1.875em;
+        font-weight: 600;
+        margin: 70px 0 25px 0;
+    }
+
     .list-stores{
         width: 100%;
 
         div{
+
+            a  h2{
+                font-size:1.5em;
+                font-weight: 400;
+                margin: 10px 0 40px;
+                }
+
             img{
                 height: 220px;
             }
