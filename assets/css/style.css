@@ -296,7 +296,7 @@ header {
 
 .category-title {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
-  font-size: 1.125em;
+  font-size: .875em;
   color: #999999;
   margin: 10px 0 20px;
 }
@@ -311,7 +311,7 @@ header {
     width: 93%;
   }
   .category-title {
-    font-size: 1.25em;
+    font-size: 1em;
     margin: 10px 0 20px;
   }
   .category_item h1 {
@@ -329,7 +329,7 @@ header {
     width: 95%;
   }
   .category-title {
-    font-size: 1.25em;
+    font-size: 1em;
     margin: 10px 0 30px 0;
   }
   .category_item h1 {
@@ -347,7 +347,7 @@ header {
     width: 95%;
   }
   .category-title {
-    font-size: 1.25em;
+    font-size: 1.125em;
     margin: 30px 0 20px 0;
   }
   .cats-container {
@@ -517,8 +517,8 @@ header {
 
 @media (min-width: 992px) {
   .list-stores-title {
-    font-size: 1.75em;
-    font-weight: 500;
+    font-size: 1.5em;
+    font-weight: 400;
     margin: 40px 0 20px 0;
   }
   .list-stores div a h2 {
@@ -536,8 +536,8 @@ header {
 
 @media (min-width: 1200px) {
   .list-stores-title {
-    font-size: 1.875em;
-    font-weight: 600;
+    font-size: 1.75em;
+    font-weight: 500;
     margin: 70px 0 25px 0;
   }
   .list-stores {
@@ -822,16 +822,16 @@ header {
 }
 
 .store-breadcrumb-container {
-  width: 90%;
+  width: 85%;
   margin: 0 auto;
   margin-bottom: 30px;
 }
 
 .store-breadcrumb {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
-  font-size: 1.125em;
+  font-size: .875em;
   color: #999999;
-  margin: 10px 0 20px;
+  margin: 10px 0 10px;
 }
 
 .store-breadcrumb span {
@@ -840,11 +840,11 @@ header {
 }
 
 .store-img {
-  text-align: right;
+  text-align: center;
 }
 
 .store-img img {
-  width: 60%;
+  width: 80%;
   height: auto;
   border: solid 1px #CECECE;
 }
@@ -857,12 +857,14 @@ header {
   text-align: left;
   font-family: "Open Sans", sans-serif;
   color: #4885ED;
-  font-size: 2em;
-  margin-top: 0;
+  font-size: 1.5em;
+  margin: 20px 20px 10px;
 }
 
 .rating-star {
   color: #F4C20D;
+  margin: 0 20px;
+  font-size: 0.875em;
 }
 
 .userrating-container {
@@ -876,6 +878,7 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin: 0 20px;
 }
 
 .userrating-container div span {
@@ -886,20 +889,21 @@ header {
 
 .userrating-container div a {
   text-decoration: none;
-  color: #99CAFF;
+  color: #007BFF;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
-  font-size: 1em;
+  font-size: .875em;
 }
 
 .userrating-container div a:hover {
-  color: #007BFF;
+  color: #ff8bbb;
 }
 
 .store-description p {
   font-family: "Open Sans", sans-serif;
-  font-size: 1.125em;
+  font-size: 1em;
   font-weight: 400;
   line-height: 1.85em;
+  margin: 10px 20px;
 }
 
 .store-buttons {
@@ -913,30 +917,392 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 50px 20px 10px 20px;
 }
 
 .fb-color {
   color: #3B5998;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .inst-color {
   color: #FB3958;
-  font-size: 2em;
+  font-size: 1.5em;
   margin-left: 10px;
 }
 
 .btn-shopnow {
-  cursor: pointer;
-  outline: 0;
-  border-radius: 20px;
-  border: solid 2px #007BFF;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+  border: solid 1px #007BFF;
   background-color: transparent;
-  width: 185px;
-  height: 50px;
   color: #007BFF;
+  font-size: .875em;
+  text-decoration: none;
+  padding: 10px 15px 10px 15px;
+}
+
+.btn-shopnow:hover {
+  color: #ff8bbb;
+  border-color: #ff8bbb;
+}
+
+@media (min-width: 576px) {
+  .store-breadcrumb-container {
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .store-breadcrumb {
+    font-size: .875em;
+    margin: 10px 0 10px;
+  }
+  .store-breadcrumb span {
+    font-weight: 500;
+  }
+  .store-img {
+    text-align: center;
+  }
+  .store-img img {
+    width: 80%;
+  }
+  .store-title {
+    display: block;
+  }
+  .store-title p {
+    text-align: left;
+    font-size: 1.5em;
+    margin: 20px 20px 10px;
+  }
+  .rating-star {
+    margin: 0 20px;
+    font-size: 0.875em;
+  }
+  .userrating-container {
+    margin: 0 20px 20px;
+  }
+  .userrating-container div span {
+    font-size: .75em;
+  }
+  .userrating-container div a {
+    font-size: .875em;
+  }
+  .store-description p {
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.85em;
+    margin: 10px 20px;
+  }
+  .store-buttons {
+    margin: 50px 20px 10px 20px;
+  }
+  .fb-color {
+    font-size: 1.5em;
+  }
+  .inst-color {
+    font-size: 1.5em;
+    margin-left: 10px;
+  }
+  .btn-shopnow {
+    border-radius: 10px;
+    width: 140px;
+    height: 40px;
+    font-size: .875em;
+  }
+}
+
+@media (min-width: 768px) {
+  .store-breadcrumb-container {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .store-breadcrumb {
+    font-size: .875em;
+    margin: 10px 0 10px;
+  }
+  .store-breadcrumb span {
+    font-weight: 500;
+  }
+  .store-img {
+    text-align: right;
+  }
+  .store-img img {
+    width: 90%;
+    margin-top: 10px;
+  }
+  .store-title {
+    display: block;
+  }
+  .store-title p {
+    text-align: left;
+    font-size: 1.5em;
+    margin: 0 20px 10px;
+  }
+  .rating-star {
+    margin: 0 20px;
+    font-size: 0.875em;
+  }
+  .userrating-container {
+    margin: 0 20px 20px;
+  }
+  .userrating-container div span {
+    font-size: .75em;
+  }
+  .userrating-container div a {
+    font-size: .875em;
+  }
+  .store-description p {
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.85em;
+    margin: 10px 10px 10px 20px;
+  }
+  .store-buttons {
+    margin: 50px 20px 10px 20px;
+  }
+  .fb-color {
+    font-size: 1.5em;
+  }
+  .inst-color {
+    font-size: 1.5em;
+    margin-left: 10px;
+  }
+  .btn-shopnow {
+    border-radius: 10px;
+    width: 140px;
+    height: 40px;
+    font-size: .875em;
+  }
+}
+
+@media (min-width: 992px) {
+  .store-breadcrumb-container {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .store-breadcrumb {
+    font-size: 1em;
+    margin: 10px 0 10px;
+  }
+  .store-breadcrumb span {
+    font-weight: 500;
+  }
+  .store-img {
+    text-align: right;
+  }
+  .store-img img {
+    width: 90%;
+    margin-top: 10px;
+  }
+  .store-title {
+    display: block;
+  }
+  .store-title p {
+    text-align: left;
+    font-size: 1.875em;
+    margin: 0 20px 15px;
+  }
+  .rating-star {
+    margin: 0 20px;
+    font-size: 1em;
+  }
+  .userrating-container {
+    margin: 0 20px 20px;
+  }
+  .userrating-container div span {
+    font-size: .875em;
+  }
+  .userrating-container div a {
+    font-size: 1em;
+  }
+  .store-description p {
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.85em;
+    margin: 10px 10px 10px 20px;
+  }
+  .store-buttons {
+    margin: 50px 20px 10px 20px;
+  }
+  .fb-color {
+    font-size: 1.5em;
+  }
+  .inst-color {
+    font-size: 1.5em;
+    margin-left: 10px;
+  }
+  .btn-shopnow {
+    border-radius: 10px;
+    font-size: .875em;
+  }
+}
+
+@media (min-width: 1200px) {
+  .store-breadcrumb-container {
+    width: 90%;
+    margin-bottom: 30px;
+  }
+  .store-breadcrumb {
+    font-size: 1.25em;
+    margin: 10px 0 20px;
+  }
+  .store-breadcrumb span {
+    font-weight: 500;
+  }
+  .store-img {
+    text-align: right;
+  }
+  .store-img img {
+    width: 90%;
+    height: auto;
+    border: solid 1px #CECECE;
+  }
+  .store-title {
+    display: block;
+  }
+  .store-title p {
+    text-align: left;
+    font-size: 2.25em;
+    margin-top: 0;
+  }
+  .rating-star {
+    color: #F4C20D;
+  }
+  .userrating-container div span {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    color: #999999;
+    font-size: .875em;
+  }
+  .userrating-container div a {
+    font-size: 1em;
+  }
+  .store-description p {
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.85em;
+  }
+  .store-buttons {
+    margin-top: 50px;
+  }
+  .fb-color {
+    font-size: 2em;
+  }
+  .inst-color {
+    font-size: 2em;
+    margin-left: 10px;
+  }
+  .btn-shopnow {
+    border-radius: 15px;
+    font-size: 1.125em;
+    padding: 10px 30px 10px 30px;
+  }
+}
+
+@media (min-width: 1360px) {
+  .store-breadcrumb-container {
+    width: 85%;
+    margin-bottom: 30px;
+  }
+  .store-img {
+    text-align: right;
+  }
+  .store-img img {
+    width: 80%;
+  }
+  .store-description p {
+    font-size: 1.25em;
+    font-weight: 400;
+    line-height: 1.85em;
+    margin: 10px 0 10px 20px;
+  }
+}
+
+.list-reviews-title {
+  font-size: 1.5em;
+  font-weight: 400;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #6D6D6D;
+  margin: 50px 0 10px 0;
+}
+
+.reviews-list_container {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.review-container, .review-container-dark, .review-container-light {
+  max-width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.review-container-dark {
+  background-color: #f1f1f1;
+}
+
+.review-container-light {
+  background-color: white;
+}
+
+.user-info-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.user-info div {
+  margin: 20px 0px 15px 20px;
+}
+
+.user-info div p {
+  display: inline;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  color: #999999;
+  margin: 0 5px;
+  font-size: 1.5em;
+}
+
+.user-info div i {
+  font-size: 2em;
+  color: #999999;
+}
+
+.review-rating-stars div {
+  margin: 20px 20px;
+}
+
+.review-rating-stars div i {
+  color: #F4C20D;
   font-size: 1.125em;
+}
+
+.user-review h5 {
+  color: #99CAFF;
+  font-size: 1.5em;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  margin: 10px 0 5px 20px;
+}
+
+.user-review p {
+  font-family: "Open Sans", sans-serif;
+  margin: 5px 0 20px 20px;
+  font-size: 1em;
 }
 
 footer {
