@@ -1411,6 +1411,10 @@ footer {
 }
 
 /* -- imports google fonts -- */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   padding: 0;
   margin: 0;
