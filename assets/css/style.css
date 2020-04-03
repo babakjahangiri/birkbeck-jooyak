@@ -1249,7 +1249,7 @@ header {
 }
 
 .review-container-dark {
-  background-color: #f1f1f1;
+  background-color: #f4f4f4;
 }
 
 .review-container-light {
@@ -1274,11 +1274,11 @@ header {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   color: #999999;
   margin: 0 5px;
-  font-size: 1.5em;
+  font-size: .85em;
 }
 
 .user-info div i {
-  font-size: 2em;
+  font-size: 1.5em;
   color: #999999;
 }
 
@@ -1288,21 +1288,70 @@ header {
 
 .review-rating-stars div i {
   color: #F4C20D;
-  font-size: 1.125em;
+  font-size: 1em;
 }
 
 .user-review h5 {
   color: #99CAFF;
-  font-size: 1.5em;
+  font-size: 1.125em;
   font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-  margin: 10px 0 5px 20px;
+  font-weight: 600;
+  margin: 10px 0 8px 20px;
 }
 
 .user-review p {
   font-family: "Open Sans", sans-serif;
-  margin: 5px 0 20px 20px;
-  font-size: 1em;
+  margin: 5px 20px 25px 20px;
+  font-size: .875em;
+}
+
+@media (min-width: 576px) {
+  .review-container, .review-container-dark, .review-container-light {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .review-container, .review-container-dark, .review-container-light {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .review-container, .review-container-dark, .review-container-light {
+    max-width: 90%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .review-container, .review-container-dark, .review-container-light {
+    max-width: 70%;
+  }
+  .user-info div {
+    margin: 20px 0px 15px 20px;
+  }
+  .user-info div p {
+    margin: 0 5px;
+    font-size: 1em;
+  }
+  .user-info div i {
+    font-size: 2em;
+  }
+  .review-rating-stars div {
+    margin: 20px 20px;
+  }
+  .review-rating-stars div i {
+    font-size: 1.125em;
+  }
+  .user-review h5 {
+    font-size: 1.5em;
+    font-weight: 400;
+    margin: 10px 0 8px 20px;
+  }
+  .user-review p {
+    margin: 5px 20px 25px 20px;
+    font-size: 1em;
+  }
 }
 
 footer {

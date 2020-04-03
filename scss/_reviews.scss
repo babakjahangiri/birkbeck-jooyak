@@ -9,7 +9,6 @@
     margin: 50px 0 10px 0;
 }
 
-
 .reviews-list_container{
     justify-content: center; 
 }
@@ -30,42 +29,36 @@
     }
 }
 
-
 .user-info-container{
     display: flex;
     justify-content:space-between;
 }
 
 .user-info{
-
     div{
             margin: 20px 0px 15px 20px;   
-
             p{
                 display: inline;
                 font-family: $font-roboto;
                 color:$secondry-font-color;
                 margin: 0 5px;
-                font-size: 1.5em;
-                
-                
+                font-size: .85em;
             }
 
             i{
-                font-size: 2em;
+                font-size: 1.5em;
                 color:$secondry-font-color;
             }
         } 
 
 }
 
-
 .review-rating-stars{
     div{
         margin: 20px 20px;
         i{
          color: $ratings-color;   
-         font-size: 1.125em;
+         font-size: 1em;
         }
       }
 }
@@ -73,15 +66,83 @@
 .user-review{
     h5{
         color: $tertiary-title-color;
-        font-size: 1.5em;
+        font-size: 1.125em;
         font-family: $font-sans;
-        font-weight: 400;
-        margin: 10px 0 5px 20px;
+        font-weight: 600;
+        margin: 10px 0 8px 20px;
     }
 
     p{
         font-family: $font-sans;
-        margin: 5px 0 20px 20px;
-        font-size: 1em;
+        margin: 5px 20px 25px 20px;
+        font-size: .875em;
     }
+}
+
+
+
+@media (min-width: 576px) {
+   
+    .review-container{
+        max-width: 100%;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .review-container{
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .review-container{
+        max-width: 90%;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .review-container{
+        max-width: 70%;
+    }
+
+
+    .user-info{
+        div{
+             margin: 20px 0px 15px 20px;   
+    
+                p{ margin: 0 5px;
+                    font-size: 1em;}
+    
+                i{ font-size: 2em; }
+            } 
+    }
+    
+    .review-rating-stars{
+        div{
+            margin: 20px 20px;
+            i{
+             font-size: 1.125em;
+            }
+          }
+    }
+    
+    .user-review{
+        h5{
+            font-size: 1.5em;
+            font-weight: 400;
+            margin: 10px 0 8px 20px;
+        }
+    
+        p{
+            margin: 5px 20px 25px 20px;
+            font-size: 1em;
+        }
+    }
+
+
+
+
 }
