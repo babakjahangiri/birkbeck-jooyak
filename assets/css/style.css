@@ -266,7 +266,7 @@ header {
   font-weight: 400;
   margin: 0;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
-  color: #4885ED;
+  color: #4285F4;
 }
 
 .category_item h3 {
@@ -286,7 +286,7 @@ header {
 }
 
 .category_item:hover h1 {
-  color: #ff8bbb;
+  color: #0055dd;
 }
 
 .category-title-container {
@@ -302,7 +302,7 @@ header {
 }
 
 .category-title span {
-  color: #4885ED;
+  color: #4285F4;
   font-weight: 500;
 }
 
@@ -834,9 +834,14 @@ header {
   margin: 10px 0 10px;
 }
 
-.store-breadcrumb span {
-  color: #4885ED;
+.store-breadcrumb a {
+  text-decoration: none;
+  color: #4285F4;
   font-weight: 500;
+}
+
+.store-breadcrumb a:hover {
+  color: #0055dd;
 }
 
 .store-img {
@@ -856,7 +861,7 @@ header {
 .store-title p {
   text-align: left;
   font-family: "Open Sans", sans-serif;
-  color: #4885ED;
+  color: #4285F4;
   font-size: 1.5em;
   margin: 20px 20px 10px;
 }
@@ -881,6 +886,12 @@ header {
   margin: 0 20px;
 }
 
+.userrating-container div {
+  height: 60px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
 .userrating-container div span {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   color: #999999;
@@ -889,13 +900,13 @@ header {
 
 .userrating-container div a {
   text-decoration: none;
-  color: #007BFF;
+  color: #4285F4;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: .875em;
 }
 
 .userrating-container div a:hover {
-  color: #ff8bbb;
+  color: #0055dd;
 }
 
 .store-description p {
@@ -925,29 +936,45 @@ header {
 
 .fb-color {
   color: #3B5998;
-  font-size: 1.5em;
+  font-size: 2.5em;
 }
 
 .inst-color {
   color: #FB3958;
-  font-size: 1.5em;
+  font-size: 2.5em;
   margin-left: 10px;
 }
 
 .btn-shopnow {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   border-radius: 10px;
-  border: solid 1px #007BFF;
+  border: solid 1px #4285F4;
   background-color: transparent;
-  color: #007BFF;
+  color: #4285F4;
   font-size: .875em;
   text-decoration: none;
   padding: 10px 15px 10px 15px;
 }
 
 .btn-shopnow:hover {
-  color: #ff8bbb;
-  border-color: #ff8bbb;
+  color: #0055dd;
+  border-color: #0055dd;
+}
+
+.btn-viewreviews {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+  border: solid 1px #4285F4;
+  background-color: transparent;
+  color: #4285F4;
+  font-size: 1.875em;
+  text-decoration: none;
+  padding: 10px 15px 10px 15px;
+}
+
+.btn-viewreviews:hover {
+  color: #0055dd;
+  border-color: #0055dd;
 }
 
 @media (min-width: 576px) {
@@ -1000,10 +1027,10 @@ header {
     margin: 50px 20px 10px 20px;
   }
   .fb-color {
-    font-size: 1.5em;
+    font-size: 2.5em;
   }
   .inst-color {
-    font-size: 1.5em;
+    font-size: 2.5em;
     margin-left: 10px;
   }
   .btn-shopnow {
@@ -1064,13 +1091,6 @@ header {
   .store-buttons {
     margin: 50px 20px 10px 20px;
   }
-  .fb-color {
-    font-size: 1.5em;
-  }
-  .inst-color {
-    font-size: 1.5em;
-    margin-left: 10px;
-  }
   .btn-shopnow {
     border-radius: 10px;
     width: 140px;
@@ -1129,12 +1149,8 @@ header {
   .store-buttons {
     margin: 50px 20px 10px 20px;
   }
-  .fb-color {
-    font-size: 1.5em;
-  }
   .inst-color {
-    font-size: 1.5em;
-    margin-left: 10px;
+    margin-left: 15px;
   }
   .btn-shopnow {
     border-radius: 10px;
@@ -1190,16 +1206,16 @@ header {
     margin-top: 50px;
   }
   .fb-color {
-    font-size: 2em;
+    font-size: 3em;
   }
   .inst-color {
-    font-size: 2em;
-    margin-left: 10px;
+    font-size: 3em;
+    margin-left: 30px;
   }
   .btn-shopnow {
     border-radius: 15px;
     font-size: 1.125em;
-    padding: 10px 30px 10px 30px;
+    padding: 10px 20px 10px 20px;
   }
 }
 
@@ -1367,7 +1383,7 @@ header {
 
 .signin-header h1 {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
-  color: #4885ED;
+  color: #4285F4;
   font-size: 1.5em;
   font-weight: 400;
 }
@@ -1422,12 +1438,14 @@ header {
   color: #999999;
 }
 
-.signin-footer hr + a {
+.signin-footer p {
   color: #6D6D6D;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 5px;
 }
 
 .signin-footer a:last-child {
-  color: #007BFF;
+  color: #4285F4;
 }
 
 .btn {

@@ -70,8 +70,10 @@
       color:$secondry-font-color;
    }
 
-   hr + a{
+   p{
       color:$primary-font-color;
+      font-family: $font-sans;
+      margin-bottom: 5px;
    }
 
    a:last-child{

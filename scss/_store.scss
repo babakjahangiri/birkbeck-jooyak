@@ -13,9 +13,14 @@
     color:$secondry-title-color;
     margin: 10px 0 10px;
  
-    span{
+    a{
+        text-decoration: none;
         color:$primary-title-color;
         font-weight: 500;
+
+        &:hover{
+            color: $category-title-hover;
+        }
     }
 }
 
@@ -51,11 +56,17 @@
 .userrating-container{
     display: flex;
     flex-direction: row;
+     
     justify-content: space-between;
+     
     margin: 0 20px;
+    
 
     div{
-        
+        height: 60px;
+        align-self: flex-end;
+ 
+
         span{
           font-family: $font-roboto;
           color: $secondry-font-color;
@@ -97,19 +108,17 @@
 
 .fb-color{
     color:$facebook-color;
-    font-size: 1.5em;
+    font-size: 2.5em;
 }
 
 .inst-color {
     color: $instagram-color;
-    font-size: 1.5em;
+    font-size: 2.5em;
     margin-left: 10px;
 }
 
 
 .btn-shopnow{
-   // cursor: pointer;
-   // outline: 0;
    font-family: $font-roboto;
     border-radius: 10px;
     border: solid 1px $primary-link-color;
@@ -125,6 +134,23 @@
     }
 }
 
+
+.btn-viewreviews{
+    font-family: $font-roboto;
+     border-radius: 10px;
+     border: solid 1px $primary-link-color;
+     background-color: transparent;
+     color:$primary-link-color;
+     font-size: 1.875em;
+     text-decoration: none;
+     padding: 10px 15px 10px 15px;
+     
+
+     &:hover{
+         color:$category-title-hover;
+         border-color: $category-title-hover;
+     }
+ }
 
 
 @media (min-width: 576px) {
@@ -192,11 +218,11 @@
     }
     
     .fb-color{
-        font-size: 1.5em;
+        font-size: 2.5em;
     }
     
     .inst-color {
-        font-size: 1.5em;
+        font-size: 2.5em;
         margin-left: 10px;
     }
     
@@ -273,14 +299,14 @@
         margin: 50px 20px 10px 20px;
     }
     
-    .fb-color{
-        font-size: 1.5em;
-    }
+  //  .fb-color{
+  //      font-size: 1.5em;
+  //  }
     
-    .inst-color {
-        font-size: 1.5em;
-        margin-left: 10px;
-    }
+  //  .inst-color {
+ //       font-size: 1.5em;
+ //       margin-left: 10px;
+  // }
     
     
     .btn-shopnow{
@@ -356,13 +382,13 @@
         margin: 50px 20px 10px 20px;
     }
     
-    .fb-color{
-        font-size: 1.5em;
-    }
+  //  .fb-color{
+   //     font-size: 2em;
+   // }
     
     .inst-color {
-        font-size: 1.5em;
-        margin-left: 10px;
+  //      font-size: 2em;
+         margin-left: 15px;
     }
     
     
@@ -444,18 +470,18 @@
     }
     
     .fb-color{
-        font-size: 2em;
+        font-size: 3em;
     }
     
     .inst-color {
-        font-size: 2em;
-        margin-left: 10px;
+        font-size: 3em;
+        margin-left: 30px;
     }
     
     .btn-shopnow{
         border-radius: 15px;
         font-size: 1.125em;
-        padding: 10px 30px 10px 30px;
+        padding: 10px 20px 10px 20px;
     }
 }
 
