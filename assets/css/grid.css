@@ -25,8 +25,17 @@ html {
      margin-left: auto;
   }
 
+  .container-j{
+    /* default from breakpoint 0, until another breakpoint overrides it */
+     max-width: 90%;
+     padding-right: 15px;
+     padding-left: 15px;
+     margin-right: auto;
+     margin-left: auto;
+  }
   
-.container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
+
+.container-fluid {
     width: 100%;
      padding-right: 15px;
     padding-left: 15px;
@@ -39,6 +48,11 @@ html {
     .container {
       max-width: 540px;
     }
+
+    .container-j {
+      max-width: 480px;
+    }
+
   }
   
   @media (min-width: 768px) {
@@ -46,6 +60,11 @@ html {
     .container {
       max-width: 720px;
     }
+
+    .container-j {
+      max-width: 680px;
+    }
+
   }
   
   @media (min-width: 992px) {
@@ -53,6 +72,11 @@ html {
     .container {
       max-width: 960px;
     }
+
+    .container-j {
+      max-width: 960px;
+    }
+
   }
   
   @media (min-width: 1200px) {
@@ -60,12 +84,20 @@ html {
     .container {
       max-width: 1140px;
     }
+
+    .container-j {
+      max-width: 980px;
+    }
   }
 
   @media (min-width: 1600px) {
     /* xll */
     .container {
       max-width: 1540px;
+    }
+
+    .container-j {
+      max-width: 980px;
     }
   }
   
