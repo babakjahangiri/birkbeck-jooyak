@@ -1420,13 +1420,14 @@ header {
   transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
   transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
   transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
-  font-size: 1.125em;
+  font-size: 1em;
 }
 
 .form-control:focus {
   -webkit-box-shadow: 0 0 0 0.1rem rgba(0, 123, 255, 0.25);
           box-shadow: 0 0 0 0.1rem rgba(0, 123, 255, 0.25);
   outline: 0;
+  font-size: 1.125em;
 }
 
 .signin-footer hr {
