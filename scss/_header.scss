@@ -86,7 +86,7 @@ header{
 
 @media (min-width: 576px) {
     .xs-searchbox{
-        display: relative;
+        display: block;
     }
 
     .lg-searchbox{
@@ -97,7 +97,7 @@ header{
 
 @media (min-width: 768px) {
     .xs-searchbox{
-        display: relative;
+        display: block;
     }
 
     .lg-searchbox{
