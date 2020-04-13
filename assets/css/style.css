@@ -274,7 +274,7 @@ header {
   font-weight: 200;
   line-height: 1.125em;
   margin: 5px 40px 0 40px;
-  color: #999999;
+  color: #888888;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
 }
@@ -297,7 +297,7 @@ header {
 .category-title {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-size: .875em;
-  color: #999999;
+  color: #888888;
   margin: 10px 0 20px;
 }
 
@@ -460,7 +460,7 @@ header {
   font-weight: 400;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   text-align: center;
-  color: #6D6D6D;
+  color: #666666;
   margin: 50px 0 10px 0;
 }
 
@@ -474,7 +474,7 @@ header {
 }
 
 .list-stores div a {
-  color: #6D6D6D;
+  color: #666666;
   text-decoration: none;
 }
 
@@ -612,7 +612,7 @@ header {
   line-height: 1.74em;
   font-weight: 200;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
-  color: #999999;
+  color: #666666;
   margin: 0 10px 40px 0;
 }
 
@@ -621,7 +621,7 @@ header {
   padding: 15px 50px 15px 50px;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-size: 1.25em;
-  color: #6D6D6D;
+  color: #666666;
   border-radius: 20px;
   border: 0;
   margin-bottom: 40px;
@@ -830,7 +830,7 @@ header {
 .store-breadcrumb {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-size: .875em;
-  color: #999999;
+  color: #888888;
   margin: 10px 0 10px;
 }
 
@@ -894,7 +894,7 @@ header {
 
 .userrating-container div span {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
-  color: #999999;
+  color: #707070;
   font-size: .75em;
 }
 
@@ -1191,7 +1191,7 @@ header {
   }
   .userrating-container div span {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
-    color: #999999;
+    color: #707070;
     font-size: .875em;
   }
   .userrating-container div a {
@@ -1243,7 +1243,7 @@ header {
   font-weight: 400;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   text-align: center;
-  color: #6D6D6D;
+  color: #666666;
   margin: 50px 0 10px 0;
 }
 
@@ -1288,14 +1288,14 @@ header {
 .user-info div p {
   display: inline;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
-  color: #999999;
+  color: #707070;
   margin: 0 5px;
   font-size: .85em;
 }
 
 .user-info div i {
   font-size: 1.5em;
-  color: #999999;
+  color: #707070;
 }
 
 .review-rating-stars div {
@@ -1390,7 +1390,7 @@ header {
 
 .signin-header p {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
-  color: #999999;
+  color: #888888;
   font-size: .875em;
   font-weight: 400;
 }
@@ -1401,7 +1401,7 @@ header {
 
 .form-group label {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
-  color: #6D6D6D;
+  color: #666666;
   display: inline-block;
   margin-bottom: 5px;
 }
@@ -1444,11 +1444,11 @@ header {
 }
 
 .signin-footer a:first-child {
-  color: #999999;
+  color: #707070;
 }
 
 .signin-footer p {
-  color: #6D6D6D;
+  color: #666666;
   font-family: "Open Sans", sans-serif;
   margin-bottom: 5px;
 }
@@ -1498,7 +1498,7 @@ header {
 
 .signup-header p {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
-  color: #999999;
+  color: #888888;
   font-size: .875em;
   font-weight: 400;
   padding: 10px 0 30px 0;
