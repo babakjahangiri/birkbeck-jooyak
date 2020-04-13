@@ -13,7 +13,7 @@ const imgFolder = "images/icons/cats/"
      let cat_list1 ="";
 
      Object.entries(cat_item).forEach(([index,e]) => {
-         cat_list1 += `<a href="category.html?id=${e.id}" class="category_item"><img src="${imgFolder}${e.icon}" title="${e.name}" alt="${e.name}"><h1>${e.name}</h1><h3>${e.description}</h3></a>`
+         cat_list1 += `<a href="category.html?id=${e.id}" class="category_item"><img src="${imgFolder}${e.icon}" alt="${e.name}"><h1>${e.name}</h1><h3>${e.description}</h3></a>`
      });
 
     if (document.getElementById("lst_category") !== null) {
