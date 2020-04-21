@@ -9,18 +9,18 @@ footer{
 }
 
 .footer-category-title{
-    font-size: 1.375em;
+    font-size: 1em;
     color:$footer-title-color;
     margin-left: 40px;
 }
 
 .footer_item{
-    font-size: 1.05em;
     list-style: none;
     line-height: 2.25em;
     a{
         text-decoration: none;
         color: $footer-link-color;
+        font-size: .75em;
     }
 }
  
@@ -57,11 +57,31 @@ footer{
  @media (min-width: 576px) {
      
 .footer-category-title{
-    font-size: 1.125em;
+    font-size: 1em;
 }
 
 .footer_item{
-    font-size: 0.75em;
+    font-size: 0.85em;
+    a{
+        font-size: 0.85em;
+       }
     }
 
  }
+
+
+ 
+ @media (min-width: 992px) {
+     
+    .footer-category-title{
+        font-size: 1em;
+    }
+    
+    .footer_item{
+        font-size: 0.85em;
+        a{
+            font-size: 0.85em;
+           }
+        }
+    
+  }

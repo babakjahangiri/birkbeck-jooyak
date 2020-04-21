@@ -1557,13 +1557,12 @@ footer {
 }
 
 .footer-category-title {
-  font-size: 1.375em;
+  font-size: 1em;
   color: #8d8d8d;
   margin-left: 40px;
 }
 
 .footer_item {
-  font-size: 1.05em;
   list-style: none;
   line-height: 2.25em;
 }
@@ -1571,6 +1570,7 @@ footer {
 .footer_item a {
   text-decoration: none;
   color: #6D6D6D;
+  font-size: .75em;
 }
 
 .copyright {
@@ -1598,10 +1598,25 @@ footer {
 
 @media (min-width: 576px) {
   .footer-category-title {
-    font-size: 1.125em;
+    font-size: 1em;
   }
   .footer_item {
-    font-size: 0.75em;
+    font-size: 0.85em;
+  }
+  .footer_item a {
+    font-size: 0.85em;
+  }
+}
+
+@media (min-width: 992px) {
+  .footer-category-title {
+    font-size: 1em;
+  }
+  .footer_item {
+    font-size: 0.85em;
+  }
+  .footer_item a {
+    font-size: 0.85em;
   }
 }
 
