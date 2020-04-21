@@ -31,8 +31,8 @@ header {
   text-decoration: none;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   color: #6D6D6D;
-  font-size: 1.125em;
-  margin: 0 15px;
+  font-size: 1em;
+  margin: 0 5px;
 }
 
 .nav-item:hover {
@@ -486,7 +486,7 @@ header {
 }
 
 .list-stores div img {
-  height: 200px;
+  height: 150px;
   width: auto;
   border: solid 1px #CECECE;
 }
@@ -574,11 +574,12 @@ header {
 
 .store-online-responsive {
   margin: 0 auto;
+  text-align: center;
 }
 
 .store-online-responsive img {
   width: auto;
-  height: 300px;
+  height: 200px;
   margin: 70px 10px 70px 10px;
 }
 
