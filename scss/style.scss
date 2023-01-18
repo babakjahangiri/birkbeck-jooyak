@@ -15,12 +15,19 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700&display=swap');
 
 
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+}
+
 html {
   scroll-behavior: smooth;
 }
 
 body{
- padding: 0;
+  padding: 0;
   margin: 0;
 }
 
