@@ -42,6 +42,16 @@ img, picture {
    -webkit-user-select: none;
 }
 
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+a{
+   cursor: pointer;
+   -webkit-tap-highlight-color: transparent;
+   -webkit-touch-callout: none;
+}
+
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
